@@ -1,4 +1,4 @@
-import { Badge } from "@chakra-ui/react";
+import { Badge, Center } from "@chakra-ui/react";
 
 interface Props {
   score: number;
@@ -13,7 +13,7 @@ const CriticScore = ({ score }: Props) => {
       fontSize="14px"
       paddingX={2}
       borderRadius="4px"
-      marginRight={2}
+      alignItems="center"
     >
       {score}
     </Badge>

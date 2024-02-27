@@ -15,12 +15,6 @@ const GameCardSkeleton = () => {
       <CardBody>
         <HStack>
           <SkeletonCircle size="5" marginTop={1} marginBottom={1} />
-          {/* <SkeletonCircle
-            size="5"
-            marginTop={1}
-            marginBottom={1}
-            borderRadius={2}
-          /> */}
         </HStack>
 
         <SkeletonText
@@ -29,9 +23,11 @@ const GameCardSkeleton = () => {
           mt="8"
           noOfLines={2}
           skeletonHeight="5"
-          marginRight={4}
+          marginRight={7}
+          maxWidth="auto"
+          // maxWidth={200}
         />
-        {/*<SkeletonText width="250px" />*/}
+
       </CardBody>
     </Card>
   );
