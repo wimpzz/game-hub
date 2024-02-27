@@ -37,7 +37,7 @@ function App() {
         />
       </GridItem>
 
-      <Show above="lg">
+      <Show above="base">
         <GridItem area="aside" paddingX={5}>
           <GenreList
             selectedGenre={gameQuery.genre}
